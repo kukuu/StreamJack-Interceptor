@@ -10,3 +10,5 @@ The technical implementation leverages the YouTube IFrame API's event system com
 What makes this approach particularly elegant is how it maintains the illusion of a native YouTube experience while completely subverting it. Users click what appears to be a standard YouTube video, but unbeknownst to them, my middleware is standing ready to hijack the playback flow. By implementing both event-based detection (`onStateChange: 0`) and time-based polling (`(duration - currentTime) < 2.5`), I've created a redundant detection system that guarantees my promos will appear regardless of how YouTube attempts to assert its own UI. The conditional close button logic further refines the experience, ensuring users only see a single, consistent close button whether watching videos or viewing partner promotions.
 
 See how this works in https://www.azzottomovies.com/lounge  - right after the video finishes playing.
+
+**Portfolio**: https://github.com/kukuu/portfolio/blob/main/README.md
