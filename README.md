@@ -8,6 +8,8 @@ It's essentially a video monetization engine that ensures viewers see partner co
 
 ## Overview
 
+_Turning Video Endings into Revenue Engines_
+
 This innovation represents a sophisticated middleware layer that fundamentally alters the YouTube playback experience by intercepting the native video workflow at a critical juncture. Rather than allowing YouTube's default behavior of displaying related videos and end-screen recommendations, I implemented a polling mechanism that continuously monitors the player state and current playback position. When the video approaches its conclusion (within 2.5 seconds of completion), my system forcefully destroys the YouTube player instance, clears the container DOM elements, and injects my custom IframeVideoPromos component - all before YouTube's native end-screen has a chance to render. This creates a seamless transition from content to partner promotions without the jarring appearance of YouTube's own recommendations.
 
 The technical implementation leverages the YouTube IFrame API's event system combined with a high-frequency polling interval (150ms) to detect the precise moment before video completion. My `forceShowPromos()` function executes a multi-step takedown: first visually hiding the YouTube container with CSS transformations (opacity:0, pointer-events:none), then recursively removing all child nodes from the container, destroying the player instance, and finally updating React state to render the partner promo carousel. This aggressive cleanup ensures YouTube can't regain control or display any of its own UI elements, effectively creating a walled garden where my partner content has exclusive access to the user's attention at the most valuable moment - immediately after content consumption.
