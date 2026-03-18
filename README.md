@@ -1,6 +1,8 @@
 # StreamJack-Interceptor
 _Turning Video Endings into Revenue Engines_
 
+It's essentially a video monetization engine that ensures viewers see partner content at the most valuable moment - right when a video they're interested in finishes!
+
 **Author: Alexander Adu-Sarkodie** 
 
 This innovation represents a sophisticated middleware layer that fundamentally alters the YouTube playback experience by intercepting the native video workflow at a critical juncture. Rather than allowing YouTube's default behavior of displaying related videos and end-screen recommendations, I implemented a polling mechanism that continuously monitors the player state and current playback position. When the video approaches its conclusion (within 2.5 seconds of completion), my system forcefully destroys the YouTube player instance, clears the container DOM elements, and injects my custom IframeVideoPromos component - all before YouTube's native end-screen has a chance to render. This creates a seamless transition from content to partner promotions without the jarring appearance of YouTube's own recommendations.
