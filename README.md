@@ -22,7 +22,7 @@ Watch how this works when videos finish playing or skip to the end:
  - https://www.azzottomovies.com/lounge-africa
  - https://www.azzottomovies.com/lounge-asia
 
-## Code Vault 
+## Vault (Code)
 
 https://github.com/kukuu/streamjack-vault  (**PRIVATE**)
 
