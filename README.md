@@ -8,7 +8,7 @@ It's essentially an automated agentic intelligent video monetization engine that
 
 ## Overview
 
-_Turning Video Endings into Revenue Engines_
+_Turning Video Endings into Revenue Engines_ 
 
 This innovation represents a sophisticated middleware layer that fundamentally alters the YouTube playback experience by intercepting the native video workflow at a critical juncture. Rather than allowing YouTube's default behavior of displaying related videos and end-screen recommendations, I implemented a polling mechanism that continuously monitors the player state and current playback position. When the video approaches its conclusion (within 2.5 seconds of completion), my system forcefully destroys the YouTube player instance, clears the container DOM elements, and injects my custom IframeVideoPromos component - all before YouTube's native end-screen has a chance to render. This creates a seamless transition from content to partner promotions without the jarring appearance of YouTube's own recommendations.
 
