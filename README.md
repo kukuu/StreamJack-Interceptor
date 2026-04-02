@@ -2,7 +2,7 @@
 
 
 **Author: Alexander Adu-Sarkodie** 
-<!--_Turning Video Endings into Revenue Engines_-->
+<!--_Turning Video Endings into Revenue Engines_--> 
  
 It's essentially an automated agentic intelligent video monetization engine that ensures viewers see partner content at the most valuable moment - right when a video they're interested in finishes!
 
