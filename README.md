@@ -21,8 +21,6 @@ What makes this approach particularly elegant is how it maintains the illusion o
 Watch how this works when videos finish playing or skip to the end:
 
  - https://www.azzottomovies.com/lounge
- - https://www.azzottomovies.com/lounge-africa
- - https://www.azzottomovies.com/lounge-asia
 
 ## Snapshots
 
