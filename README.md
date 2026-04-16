@@ -4,7 +4,7 @@
 **Author: Alexander Adu-Sarkodie** 
 <!--_Turning Video Endings into Revenue Engines_-->  
  
-It's essentially an automated agentic intelligent video monetization engine that ensures viewers see valuable content when a user finishes watching something they care about. StreamJack automatically continue their journey with monetized content. Serving as an auto-play funnels for high-intent viewers.
+StreamJack is an intelligent post-roll monetization system that detects high-intent viewers and automatically continues their journey with targeted, monetized video content.
 
 ## Overview
  
