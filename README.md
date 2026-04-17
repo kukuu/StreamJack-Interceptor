@@ -24,7 +24,7 @@ By controlling the post-play experience within a publisher-managed environment, 
 
 Watch how this works when videos finish playing or skip to the end:
 
- - https://www.azzottomovies.com/globalmovie/1084577
+ - https://www.azzottomovies.com/globalmovie/1290821
 
 ## Technical Architecture 
 
