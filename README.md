@@ -10,7 +10,7 @@ By targeting high-intent viewers at peak engagement, StreamJack increases sessio
 
 ## Overview
  
-_Turning Video Endings into Revenue Engines_ 
+_Turning Video Endings into Revenue Engines_  
 
 StreamJack enhances the post-video experience by seamlessly transitioning viewers into relevant, monetized content at the moment a video ends.
 
